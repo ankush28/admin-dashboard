@@ -1,0 +1,177 @@
+<section class="w-full grid grid-rows-1 grid-flow-col gap-4">
+    <div class="flex bg-white rounded-md p-4 drop-shadow justify-between">
+        <div class="flex flex-col ">
+            <p class="text-base text-gray-500 font-semibold">TODAY'S MONEY</p>
+            <p class="text-lg text-blue-700 font-bold">$53,000</p>
+            <p class="text-sm mt-2 text-gray-500 font-semibold"><span class="text-green-700 font-bold mr-1">+55%</span>since yesterday</p>
+        </div>
+        <div>
+            <img class="w-14" src="../../../assets/salary.png" />
+        </div>
+    </div>
+    <div class="flex bg-white rounded-md p-4 drop-shadow justify-between">
+        <div class="flex flex-col ">
+            <p class="text-base text-gray-500 font-semibold">TODAY'S USERS</p>
+            <p class="text-lg text-blue-700 font-bold">2,300</p>
+            <p class="text-sm mt-2 text-gray-500 font-semibold"><span class="text-green-700 font-bold mr-1">+55%</span>since yesterday</p>
+        </div>
+        <div>
+            <img class="w-14" src="../../../assets/user.png" />
+        </div>
+    </div>
+    <div class="flex bg-white rounded-md p-4 drop-shadow justify-between">
+        <div class="flex flex-col ">
+            <p class="text-base text-gray-500 font-semibold">NEW CLIENTS</p>
+            <p class="text-lg text-blue-700 font-bold">+3,462</p>
+            <p class="text-sm mt-2 text-gray-500 font-semibold"><span class="text-green-700 font-bold mr-1">+55%</span>since yesterday</p>
+        </div>
+        <div>
+            <img class="w-14" src="../../../assets/handshake.png" />
+        </div>
+    </div>
+    <div class="flex bg-white rounded-md p-4 drop-shadow justify-between">
+        <div class="flex flex-col ">
+            <p class="text-base text-gray-500 font-semibold">SALES</p>
+            <p class="text-lg text-blue-700 font-bold">$104,000</p>
+            <p class="text-sm mt-2 text-gray-500 font-semibold"><span class="text-green-700 font-bold mr-1">+55%</span>since yesterday</p>
+        </div>
+        <div>
+            <img class="w-14" src="../../../assets/sales.png" />
+        </div>
+    </div>
+</section>
+
+
+<section class="mt-8">
+    <div class="bg-white p-4 rounded-md drop-shadow-md" id="chart">
+        <apx-chart
+          [series]="chartOptions.series!"
+          [chart]="chartOptions.chart!"
+          [xaxis]="chartOptions.xaxis!"
+          [stroke]="chartOptions.stroke!"
+          [dataLabels]="chartOptions.dataLabels!"
+          [yaxis]="chartOptions.yaxis!"
+          [labels]="chartOptions.labels!"
+          [legend]="chartOptions.legend!"
+          [title]="chartOptions.title!"
+          [subtitle]="chartOptions.subtitle!"
+        ></apx-chart>
+      </div>
+</section>
+
+<section class="mt-8 flex gap-4">
+    <div class="w-1/2 bg-white rounded-md drop-shadow-md p-4">
+        <div class="w-full">
+            <p class="text-base font-semibold">Sales by Country</p>
+            <table class="w-full border-separate border-spacing-6">
+        
+                   
+        
+                <tbody>
+                  <tr>
+                    <td>
+        
+                    </td>
+                    <td>
+                        <div class="flex flex-col">
+                            <p class="text-sm text-gray-500">Country:</p>
+                            <p class="font-semibold">United States</p>
+                        </div>
+                    </td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Sales</p>
+                        <p class="font-semibold">2500</p>
+                    </div></td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Values</p>
+                        <p class="font-semibold">230,900</p>
+                    </div></td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Bounce</p>
+                        <p class="font-semibold">29.9%</p>
+                    </div></td>
+                  </tr>
+        
+                  <tr>
+                    <td>
+        
+                    </td>
+                    <td>
+                        <div class="flex flex-col">
+                            <p class="text-sm text-gray-500">Country:</p>
+                            <p class="font-semibold">United States</p>
+                        </div>
+                    </td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Sales</p>
+                        <p class="font-semibold">2500</p>
+                    </div></td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Values</p>
+                        <p class="font-semibold">230,900</p>
+                    </div></td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Bounce</p>
+                        <p class="font-semibold">29.9%</p>
+                    </div></td>
+                  </tr><tr>
+                    <td>
+        
+                    </td>
+                    <td>
+                        <div class="flex flex-col">
+                            <p class="text-sm text-gray-500">Country:</p>
+                            <p class="font-semibold">United States</p>
+                        </div>
+                    </td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Sales</p>
+                        <p class="font-semibold">2500</p>
+                    </div></td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Values</p>
+                        <p class="font-semibold">230,900</p>
+                    </div></td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Bounce</p>
+                        <p class="font-semibold">29.9%</p>
+                    </div></td>
+                  </tr><tr>
+                    <td>
+        
+                    </td>
+                    <td>
+                        <div class="flex flex-col">
+                            <p class="text-sm text-gray-500">Country:</p>
+                            <p class="font-semibold">United States</p>
+                        </div>
+                    </td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Sales</p>
+                        <p class="font-semibold">2500</p>
+                    </div></td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Values</p>
+                        <p class="font-semibold">230,900</p>
+                    </div></td>
+                    <td><div class="flex flex-col">
+                        <p class="text-sm text-gray-500">Bounce</p>
+                        <p class="font-semibold">29.9%</p>
+                    </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+    </div>
+    <div class="w-1/2 bg-white rounded-md drop-shadow-md" id="charttwo">
+        <apx-chart
+        [series]="chartOptionstwo.series!"
+        [chart]="chartOptionstwo.chart!"
+        [plotOptions]="chartOptionstwo.plotOptions!"
+        [labels]="chartOptionstwo.labels!"
+        [fill]="chartOptionstwo.fill!"
+        [stroke]="chartOptionstwo.stroke!"
+      ></apx-chart>
+    </div>
+    
+</section>
