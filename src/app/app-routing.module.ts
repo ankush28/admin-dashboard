@@ -7,6 +7,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { SigninComponent } from './components/signin/signin.component';
 import { CalenderComponent } from './components/calender/calender.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { BillingComponent } from './components/billing/billing.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent,
@@ -16,6 +17,7 @@ const routes: Routes = [
     { path: 'tables', component: TablesComponent },
     { path: 'profile', component: ProfileComponent },
     { path: 'calender', component: CalenderComponent },
+    { path: 'billing', component: BillingComponent },
     
   ] 
 },
