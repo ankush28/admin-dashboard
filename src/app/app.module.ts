@@ -12,6 +12,9 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { SigninComponent } from './components/signin/signin.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { NgApexchartsModule } from 'ng-apexcharts';
+import { CalenderComponent } from './components/calender/calender.component';
+import { FullCalendarModule } from '@fullcalendar/angular';
+
 
 @NgModule({
   declarations: [
@@ -23,12 +26,14 @@ import { NgApexchartsModule } from 'ng-apexcharts';
     BillingComponent,
     ProfileComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    CalenderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgApexchartsModule
+    NgApexchartsModule,
+    FullCalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,41 @@
+<div class="h-full flex flex-col">
+    <div class="w-full text-center p-6 font-bold text-lg text-gray-600">
+        ADMIN DASHBOARD
+    </div>
+    <hr />
+    <div class="flex flex-col justify-between h-full">
+        <div>
+            <li routerLinkActive='active' [routerLink]="['/dashboard']" class="p-4 m-2 rounded-md cursor-pointer text-gray-700 flex text-sm font-semibold list-none">
+                <img class="w-6 h-6 mr-4" src="../../../assets/monitor.png" />
+                Dashboard
+            </li>
+            <li routerLinkActive='active' [routerLink]="['/tables']" class="p-4 m-2 rounded-md cursor-pointer text-gray-700 flex text-sm font-semibold list-none">
+                <img class="w-6 h-6 mr-4" src="../../../assets/table.png" />
+                Tables
+            </li>
+            <li routerLinkActive='active' [routerLink]="['/billing']" class="p-4 m-2 rounded-md cursor-pointer text-gray-700 flex text-sm font-semibold list-none">
+                <img class="w-6 h-6 mr-4" src="../../../assets/ticket.png" />
+                Billing
+            </li>
+            <li routerLinkActive='active' [routerLink]="['/calender']" class="p-4 m-2 rounded-md cursor-pointer text-gray-700 flex text-sm font-semibold list-none">
+                <img class="w-6 h-6 mr-4" src="../../../assets/schedule.png" />
+                Calender
+            </li>
+        </div>
+        <div>
+            <li routerLinkActive='active' [routerLink]="['/login']" class="p-4 m-2 rounded-md cursor-pointer flex text-gray-700 text-sm font-semibold list-none">
+                <img class="w-6 h-6 mr-4" src="../../../assets/user-profile.png" />
+                Login
+            </li>
+            <li routerLinkActive='active' [routerLink]="['/register']" class="p-4 m-2 rounded-md cursor-pointer flex text-gray-700 text-sm font-semibold list-none">
+                <img class="w-6 h-6 mr-4" src="../../../assets/verify.png" />
+                Register
+            </li>
+            <li routerLinkActive='active' [routerLink]="['/profile']" class="p-4 m-2 rounded-md cursor-pointer flex text-gray-700 text-sm font-semibold list-none">
+                <img class="w-6 h-6 mr-4" src="../../../assets/man.png" />
+                Profile
+            </li>
+        </div>
 
+    </div>
+</div>
